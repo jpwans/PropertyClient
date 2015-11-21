@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '6.0'
+
+pod "AFNetworking", "~> 2.0"
+
+pod 'XMPPFramework', '~> 3.6'
+
+# pod 'FMDB'
+# pod 'RMMapper', '~> 1.1'
+

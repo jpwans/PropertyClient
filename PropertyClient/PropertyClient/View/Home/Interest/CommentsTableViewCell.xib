@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="29" id="KGk-i7-Jjw" customClass="CommentsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="29"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="陈先生：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBR-3W-LuO">
+                        <rect key="frame" x="5" y="5" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="gBR-3W-LuO" secondAttribute="height" multiplier="3:1" id="3Al-zr-ulM"/>
+                            <constraint firstAttribute="height" constant="20" id="bEh-Zl-Zxw"/>
+                            <constraint firstAttribute="width" constant="60" id="zUE-dI-FL6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="显示内容" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBa-Qa-Ndq">
+                        <rect key="frame" x="65" y="5" width="248" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="248" id="LHm-hy-l49"/>
+                            <constraint firstAttribute="height" constant="20" id="TXp-BD-Zf0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CBa-Qa-Ndq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="B1c-Pf-EzZ"/>
+                    <constraint firstItem="CBa-Qa-Ndq" firstAttribute="leading" secondItem="gBR-3W-LuO" secondAttribute="trailing" id="J77-cQ-tuJ"/>
+                    <constraint firstItem="gBR-3W-LuO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="PAQ-IX-QgN"/>
+                    <constraint firstAttribute="bottom" secondItem="CBa-Qa-Ndq" secondAttribute="bottom" constant="3.5" id="TCT-Yl-QGR"/>
+                    <constraint firstAttribute="trailing" secondItem="CBa-Qa-Ndq" secondAttribute="trailing" constant="7" id="Up9-Se-EPC"/>
+                    <constraint firstItem="gBR-3W-LuO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="WAu-6Z-3Re"/>
+                    <constraint firstItem="CBa-Qa-Ndq" firstAttribute="leading" secondItem="gBR-3W-LuO" secondAttribute="trailing" id="vR3-qt-ZYb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="name" destination="gBR-3W-LuO" id="Up6-mK-Ded"/>
+                <outlet property="replyLable" destination="CBa-Qa-Ndq" id="ocQ-pU-lzb"/>
+            </connections>
+            <point key="canvasLocation" x="509" y="220.5"/>
+        </tableViewCell>
+    </objects>
+</document>
