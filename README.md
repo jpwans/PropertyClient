@@ -14,6 +14,6 @@
 一、项目介绍 
 -----------
 
-	邻里指尖致力于成为幸福生活的建设者，帮您解决一切生活烦恼，邻里指尖包含两个版本[物业端](https://github.com/MoPellet/PropertyClient) 和[业主端](https://github.com/MoPellet/PropertyOwnerClient),为您提供更贴心的服务：
+        邻里指尖致力于成为幸福生活的建设者，帮您解决一切生活烦恼，邻里指尖包含两个版本[物业端](https://github.com/MoPellet/PropertyClient) 和[业主端](https://github.com/MoPellet/PropertyOwnerClient),为您提供更贴心的服务：
 
   
