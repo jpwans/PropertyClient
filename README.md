@@ -1,4 +1,5 @@
 # PropertyClient
+邻里指尖 物业端 ios版
 
 ## 联系方式 
 * Email:351420450@qq.com
@@ -8,4 +9,9 @@
 ## 项目目录
 * [Appointment](https://github.com/MoPellet/Appointment)
 * [MOMenuView](https://github.com/MoPellet/MOMenuView)
-* [PropertyClient](https://github.com/MoPellet/PropertyClient)(小区物业O2O物业端)
+* [PropertyClient](https://github.com/MoPellet/PropertyClient) 
+
+## 项目介绍 
+    邻里指尖致力于成为幸福生活的建设者，https://github.com/MoPellet/PropertyOwnerClient帮,解决一切生活烦恼，邻里指尖包含两个版本[物业端](https://github.com/MoPellet/PropertyClient) 和[业主端](https://github.com/MoPellet/PropertyOwnerClient),为您提供更贴心的服务：
+* 
+  
